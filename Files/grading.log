@@ -1,0 +1,84 @@
+
+========== Summary ==========
+Total test case score: 78.0
+You got: 60.36363636363636
+
+========== Details ==========
+Test 10 failed:  Test 10 - redirect with multiple >: should get stderr:  An error has occurred Got: . -1.0
+Test 12 failed: Test 12 - redirect without input: should get stderr:  An error has occurred Got: . -1.0
+Test 16 failed: Test 16 - run only & command: should get stderr:  An error has occurred Got: . -1.0
+Test 17 failed: Test 17 - run parallel commands with & at the end: should get test1
+test2
+test3
+test4
+/cs4348-xv6/src/test
+. Got . -1.0
+Test 17 failed: Test 17 - run parallel commands with & at the end: should get stderr:   Got: An error has occurred
+An error has occurred
+. -1.0
+Test 18 failed: Test 18 - run nromal parallel commands: should get test1
+test2
+test3
+test4
+/cs4348-xv6/src/test
+Linux
+. Got . -1.0
+Test 18 failed: Test 18 - run nromal parallel commands: should get stderr:   Got: An error has occurred
+An error has occurred
+. -1.0
+Test 19 failed: Test 19 - run parallel commands with no space before and: should get test1
+test2
+test3
+test4
+/cs4348-xv6/src/test
+Linux
+. Got . -1.0
+Test 19 failed: Test 19 - run parallel commands with no space before and: should get stderr:   Got: An error has occurred
+An error has occurred
+. -1.0
+Test 20 failed: Test 20 - run redirection and parallel commands together: should get hello
+/cs5348-xv6/nsd160330/P1
+Linux
+. Got . -1.0
+Test 20 failed: Test 20 - run redirection and parallel commands together: should get stderr:   Got: An error has occurred
+cat: /cs5348-xv6/nsd160330/P1/.tmp/output1: No such file or directory
+cat: /cs5348-xv6/nsd160330/P1/.tmp/output2: No such file or directory
+cat: /cs5348-xv6/nsd160330/P1/.tmp/output3: No such file or directory
+. -1.0
+Test 22 failed: Test 22 - check that commands are not executed serially: should get test1
+test2
+test3
+test4
+hello world
+. Got . -1.0
+Test 22 failed: Test 22 - check that commands are not executed serially: should get stderr:   Got: An error has occurred
+An error has occurred
+. -1.0
+Test 23 failed: Test 23 - run build-in commands without setting path and then set path and execute some other commands: should get test1
+test2
+test3
+test4
+test1
+test2
+test3
+test4
+. Got test1
+test2
+test3
+test4
+. -1.0
+Test 23 failed: Test 23 - run build-in commands without setting path and then set path and execute some other commands: should get stderr:   Got: An error has occurred
+An error has occurred
+An error has occurred
+. -1.0
+Test 24 failed: Test 24 - run commands in the interactive mode: should get dash> /cs5348-xv6/nsd160330/P1
+dash> Linux
+. Got /cs5348-xv6/nsd160330/P1
+Linux
+dash> dash> dash> dash> . -1.0
+Test 26 failed: Test 26 - run a long command: ls.txt should be created.. -0.2727272727272727
+Test 26 failed: Test 26 - run a long command: ls.txt should not be empty.. -0.2727272727272727
+Test 26 failed: Test 26 - run a long command: pwd.txt should be created.. -0.2727272727272727
+Test 26 failed: Test 26 - run a long command: pwd.txt should not be empty.. -0.2727272727272727
+Test 26 failed: Test 26 - run a long command: ps.txt should be created.. -0.2727272727272727
+Test 26 failed: Test 26 - run a long command: ps.txt should not be empty.. -0.2727272727272727
